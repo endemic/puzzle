@@ -1,0 +1,126 @@
+html { image-rendering: pixelated; }
+
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  align-items: center;
+  background: url('../images/background.png');
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+header {
+  background: black;
+  border-radius: 2rem 2rem 0 0;
+  box-sizing: border-box;
+  color: white;
+  font: bold 2rem monospace;
+  padding: 0.75rem 1.5rem 0.25rem 1.5rem;
+  width: 100%;
+}
+
+main {
+  background: url('../images/grid_background.png') center/5%;
+  border-radius: 0 0 2rem 2rem;
+  border: 0.2rem solid black;
+  box-sizing: border-box;
+  padding: 1rem;
+  width: 100%;
+}
+
+#grid {
+  border-bottom: 0;
+  border-right: 0;
+  border: 1px solid black;
+  user-select: none;
+}
+
+#grid>div {
+  border-left: 0;
+  border-top: 0;
+  border: 1px solid black;
+  box-sizing: border-box;
+}
+
+.one {
+  background: url('../images/1.png') center/100% no-repeat;
+}
+
+.two {
+  background: url('../images/2.png') center/100% no-repeat;
+}
+
+.three {
+  background: url('../images/3.png') center/100% no-repeat;
+}
+
+.four {
+  background: url('../images/4.png') center/100% no-repeat;
+}
+
+.five {
+  background: url('../images/5.png') center/100% no-repeat;
+}
+
+.six {
+  background: url('../images/6.png') center/100% no-repeat;
+}
+
+.seven {
+  background: url('../images/7.png') center/100% no-repeat;
+}
+
+.eight {
+  background: url('../images/8.png') center/100% no-repeat;
+}
+
+.nine {
+  background: url('../images/9.png') center/100% no-repeat;
+}
+
+.ten {
+  background: url('../images/10.png') center/100% no-repeat;
+}
+
+.eleven {
+  background: url('../images/11.png') center/100% no-repeat;
+}
+
+.twelve {
+  background: url('../images/12.png') center/100% no-repeat;
+}
+
+.thirteen {
+  background: url('../images/13.png') center/100% no-repeat;
+}
+
+.fourteen {
+  background: url('../images/14.png') center/100% no-repeat;
+}
+
+.fifteen {
+  background: url('../images/15.png') center/100% no-repeat;
+}
+
+.sixteen {
+  background: url('../images/empty.png') center/20% repeat;
+}
+
+/* desktop styles */
+@media (min-width: 768px) and (orientation: landscape) {
+  header {
+    font: 4rem monospace;
+    width: 50%;
+  }
+
+  main {
+    background: url('../images/grid_background.png') center/2%;
+    padding: 1.5rem;
+    width: 50%;
+  }
+}
